@@ -1,0 +1,47 @@
+[
+  {
+    "date": "18/04/2026 13:00",
+    "total": 10,
+    "score": 10,
+    "pourcentage": "100.0%"
+  },
+  {
+    "date": "18/04/2026 12:20",
+    "total": 10,
+    "score": 4,
+    "pourcentage": "40.0%"
+  },
+  {
+    "date": "17/04/2026 08:25",
+    "total": 10,
+    "score": 0,
+    "pourcentage": "0.0%"
+  },
+  {
+    "date": "14/04/2026 12:10",
+    "total": 10,
+    "score": 4,
+    "pourcentage": "40.0%"
+  },
+  {
+    "date": "15/03/2026 09:14",
+    "type": "Entraînement CCNA",
+    "total": 50,
+    "score": 15,
+    "pourcentage": "30.0%"
+  },
+  {
+    "date": "15/03/2026 09:23",
+    "type": "Entraînement CCNA",
+    "total": 20,
+    "score": 2,
+    "pourcentage": "10.0%"
+  },
+  {
+    "date": "14/04/2026 11:32",
+    "type": "Entraînement CCNA",
+    "total": 10,
+    "score": 3,
+    "pourcentage": "30.0%"
+  }
+]

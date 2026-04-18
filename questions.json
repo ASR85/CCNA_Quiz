@@ -1,0 +1,1052 @@
+[
+  {
+    "question": "Quel modèle OSI est responsable du routage des paquets entre différents réseaux ?",
+    "propositions": [
+      "Couche 2 – Liaison de données",
+      "Couche 3 – Réseau",
+      "Couche 4 – Transport",
+      "Couche 1 – Physique"
+    ],
+    "reponse_correcte": "Couche 3 – Réseau"
+  },
+  {
+    "question": "Quelle est la plage d'adresses IP privées de classe B ?",
+    "propositions": [
+      "10.0.0.0 – 10.255.255.255",
+      "172.16.0.0 – 172.31.255.255",
+      "192.168.0.0 – 192.168.255.255",
+      "169.254.0.0 – 169.254.255.255"
+    ],
+    "reponse_correcte": "172.16.0.0 – 172.31.255.255"
+  },
+  {
+    "question": "Quelle commande Cisco IOS permet d'afficher la table de routage ?",
+    "propositions": [
+      "show ip interface brief",
+      "show route",
+      "show ip route",
+      "display routing-table"
+    ],
+    "reponse_correcte": "show ip route"
+  },
+  {
+    "question": "Quel protocole est utilisé pour attribuer automatiquement des adresses IP aux hôtes ?",
+    "propositions": [
+      "ARP",
+      "DHCP",
+      "DNS",
+      "ICMP"
+    ],
+    "reponse_correcte": "DHCP"
+  },
+  {
+    "question": "Combien de bits composent une adresse IPv4 ?",
+    "propositions": [
+      "16 bits",
+      "32 bits",
+      "64 bits",
+      "128 bits"
+    ],
+    "reponse_correcte": "32 bits"
+  },
+  {
+    "question": "Quel est le masque de sous-réseau par défaut pour une adresse de classe C ?",
+    "propositions": [
+      "255.0.0.0",
+      "255.255.0.0",
+      "255.255.255.0",
+      "255.255.255.128"
+    ],
+    "reponse_correcte": "255.255.255.0"
+  },
+  {
+    "question": "Quel protocole de la couche 4 est orienté connexion ?",
+    "propositions": [
+      "UDP",
+      "IP",
+      "TCP",
+      "ICMP"
+    ],
+    "reponse_correcte": "TCP"
+  },
+  {
+    "question": "Quelle est la fonction principale du protocole ARP ?",
+    "propositions": [
+      "Résoudre un nom de domaine en adresse IP",
+      "Résoudre une adresse IP en adresse MAC",
+      "Chiffrer les communications réseau",
+      "Attribuer une adresse IP dynamique"
+    ],
+    "reponse_correcte": "Résoudre une adresse IP en adresse MAC"
+  },
+  {
+    "question": "Quel type de câble est utilisé pour connecter deux équipements identiques (ex. switch à switch) sans adaptateur ?",
+    "propositions": [
+      "Câble droit (straight-through)",
+      "Câble croisé (crossover)",
+      "Câble console",
+      "Câble coaxial"
+    ],
+    "reponse_correcte": "Câble croisé (crossover)"
+  },
+  {
+    "question": "Sur quel port UDP fonctionne le protocole DHCP (serveur) ?",
+    "propositions": [
+      "Port 53",
+      "Port 67",
+      "Port 68",
+      "Port 80"
+    ],
+    "reponse_correcte": "Port 67"
+  },
+  {
+    "question": "Quelle est la notation CIDR équivalente au masque 255.255.255.192 ?",
+    "propositions": [
+      "/25",
+      "/26",
+      "/27",
+      "/28"
+    ],
+    "reponse_correcte": "/26"
+  },
+  {
+    "question": "Quel protocole de routage est un protocole à état de lien (link-state) ?",
+    "propositions": [
+      "RIP",
+      "EIGRP",
+      "OSPF",
+      "BGP"
+    ],
+    "reponse_correcte": "OSPF"
+  },
+  {
+    "question": "Quelle commande permet de sauvegarder la configuration courante dans la NVRAM d'un routeur Cisco ?",
+    "propositions": [
+      "write terminal",
+      "copy running-config startup-config",
+      "save configuration",
+      "backup config"
+    ],
+    "reponse_correcte": "copy running-config startup-config"
+  },
+  {
+    "question": "Quel protocole permet la résolution de noms de domaine en adresses IP ?",
+    "propositions": [
+      "DHCP",
+      "ARP",
+      "DNS",
+      "SNMP"
+    ],
+    "reponse_correcte": "DNS"
+  },
+  {
+    "question": "Quelle est la distance administrative par défaut d'OSPF sur un routeur Cisco ?",
+    "propositions": [
+      "90",
+      "110",
+      "120",
+      "170"
+    ],
+    "reponse_correcte": "110"
+  },
+  {
+    "question": "Quelle technologie permet à plusieurs VLANs de transiter sur un seul lien entre deux switches ?",
+    "propositions": [
+      "Port Access",
+      "Port Trunk",
+      "Port Mirror",
+      "EtherChannel"
+    ],
+    "reponse_correcte": "Port Trunk"
+  },
+  {
+    "question": "Quel protocole est utilisé pour transporter des trames de plusieurs VLANs sur un lien trunk ?",
+    "propositions": [
+      "ISL",
+      "802.1Q",
+      "802.3",
+      "STP"
+    ],
+    "reponse_correcte": "802.1Q"
+  },
+  {
+    "question": "Quelle est la valeur de priorité STP par défaut sur un switch Cisco ?",
+    "propositions": [
+      "1",
+      "4096",
+      "32768",
+      "65535"
+    ],
+    "reponse_correcte": "32768"
+  },
+  {
+    "question": "Quel protocole empêche les boucles de commutation dans un réseau Ethernet commuté ?",
+    "propositions": [
+      "RSTP",
+      "STP",
+      "VTP",
+      "CDP"
+    ],
+    "reponse_correcte": "STP"
+  },
+  {
+    "question": "Combien de bits composent une adresse IPv6 ?",
+    "propositions": [
+      "32 bits",
+      "64 bits",
+      "96 bits",
+      "128 bits"
+    ],
+    "reponse_correcte": "128 bits"
+  },
+  {
+    "question": "Quelle commande permet d'afficher les interfaces d'un routeur avec leurs adresses IP et leur état ?",
+    "propositions": [
+      "show interfaces status",
+      "show ip interface brief",
+      "show running-config",
+      "show version"
+    ],
+    "reponse_correcte": "show ip interface brief"
+  },
+  {
+    "question": "Quel est le rôle du protocole NAT ?",
+    "propositions": [
+      "Résoudre des noms de domaine",
+      "Chiffrer les données transmises",
+      "Traduire des adresses IP privées en adresses IP publiques",
+      "Distribuer automatiquement des adresses IP"
+    ],
+    "reponse_correcte": "Traduire des adresses IP privées en adresses IP publiques"
+  },
+  {
+    "question": "Quel type de NAT associe une adresse IP privée à une adresse IP publique de manière permanente ?",
+    "propositions": [
+      "NAT dynamique",
+      "PAT (NAT Overload)",
+      "NAT statique",
+      "NAT bidirectionnel"
+    ],
+    "reponse_correcte": "NAT statique"
+  },
+  {
+    "question": "Quel protocole utilise le port 22 pour la gestion sécurisée à distance ?",
+    "propositions": [
+      "Telnet",
+      "SSH",
+      "HTTPS",
+      "SNMP"
+    ],
+    "reponse_correcte": "SSH"
+  },
+  {
+    "question": "Quel est le protocole de gestion de réseau qui utilise le port UDP 161 ?",
+    "propositions": [
+      "SSH",
+      "Syslog",
+      "SNMP",
+      "NetFlow"
+    ],
+    "reponse_correcte": "SNMP"
+  },
+  {
+    "question": "Quelle commande permet de configurer une adresse IP sur une interface de routeur Cisco ?",
+    "propositions": [
+      "ip address 192.168.1.1 255.255.255.0",
+      "set ip 192.168.1.1/24",
+      "interface ip 192.168.1.1",
+      "assign ip 192.168.1.1 mask 255.255.255.0"
+    ],
+    "reponse_correcte": "ip address 192.168.1.1 255.255.255.0"
+  },
+  {
+    "question": "Dans quel état est un port STP qui transfère les trames et apprend les adresses MAC ?",
+    "propositions": [
+      "Blocking",
+      "Listening",
+      "Learning",
+      "Forwarding"
+    ],
+    "reponse_correcte": "Forwarding"
+  },
+  {
+    "question": "Quel protocole permet la redondance de passerelle par défaut (FHRP) propriétaire Cisco ?",
+    "propositions": [
+      "VRRP",
+      "GLBP",
+      "HSRP",
+      "IRDP"
+    ],
+    "reponse_correcte": "HSRP"
+  },
+  {
+    "question": "Quel type de trame Ethernet contient une balise 802.1Q ?",
+    "propositions": [
+      "Trame native",
+      "Trame tagged",
+      "Trame untagged",
+      "Trame broadcast"
+    ],
+    "reponse_correcte": "Trame tagged"
+  },
+  {
+    "question": "Quelle est la plage des adresses de multicast IPv4 ?",
+    "propositions": [
+      "10.0.0.0 – 10.255.255.255",
+      "172.16.0.0 – 172.31.255.255",
+      "224.0.0.0 – 239.255.255.255",
+      "240.0.0.0 – 255.255.255.255"
+    ],
+    "reponse_correcte": "224.0.0.0 – 239.255.255.255"
+  },
+  {
+    "question": "Quelle commande permet de vérifier la connectivité entre deux équipements réseau ?",
+    "propositions": [
+      "traceroute",
+      "ping",
+      "telnet",
+      "nslookup"
+    ],
+    "reponse_correcte": "ping"
+  },
+  {
+    "question": "Quel protocole de routage utilise la métrique du nombre de sauts (hop count) avec un maximum de 15 ?",
+    "propositions": [
+      "OSPF",
+      "EIGRP",
+      "RIP",
+      "IS-IS"
+    ],
+    "reponse_correcte": "RIP"
+  },
+  {
+    "question": "Quel mode de port switch attribue un seul VLAN non tagué aux trames entrantes ?",
+    "propositions": [
+      "Mode trunk",
+      "Mode access",
+      "Mode dynamic",
+      "Mode hybrid"
+    ],
+    "reponse_correcte": "Mode access"
+  },
+  {
+    "question": "Quelle adresse IPv6 est l'équivalent de l'adresse de loopback 127.0.0.1 en IPv4 ?",
+    "propositions": [
+      "::1",
+      "FE80::1",
+      "FF02::1",
+      "2001::1"
+    ],
+    "reponse_correcte": "::1"
+  },
+  {
+    "question": "Quel protocole est utilisé par les routeurs pour découvrir les voisins Cisco directement connectés ?",
+    "propositions": [
+      "LLDP",
+      "STP",
+      "CDP",
+      "OSPF"
+    ],
+    "reponse_correcte": "CDP"
+  },
+  {
+    "question": "Quelle est la distance administrative d'une route statique sur Cisco IOS ?",
+    "propositions": [
+      "0",
+      "1",
+      "5",
+      "15"
+    ],
+    "reponse_correcte": "1"
+  },
+  {
+    "question": "Quel message DHCP est envoyé par le client en broadcast pour demander une adresse IP ?",
+    "propositions": [
+      "DHCP Discover",
+      "DHCP Offer",
+      "DHCP Request",
+      "DHCP ACK"
+    ],
+    "reponse_correcte": "DHCP Discover"
+  },
+  {
+    "question": "Quel est le protocole de sécurité sans fil WPA2 qui utilise AES pour le chiffrement ?",
+    "propositions": [
+      "WEP",
+      "TKIP",
+      "CCMP",
+      "RC4"
+    ],
+    "reponse_correcte": "CCMP"
+  },
+  {
+    "question": "Quelle commande permet d'activer SSH v2 sur un équipement Cisco ?",
+    "propositions": [
+      "ssh version 2",
+      "ip ssh version 2",
+      "enable ssh v2",
+      "set ssh version 2"
+    ],
+    "reponse_correcte": "ip ssh version 2"
+  },
+  {
+    "question": "Quel type d'ACL filtre le trafic basé uniquement sur l'adresse IP source ?",
+    "propositions": [
+      "ACL étendue",
+      "ACL standard",
+      "ACL nommée",
+      "ACL dynamique"
+    ],
+    "reponse_correcte": "ACL standard"
+  },
+  {
+    "question": "Dans quel plage de numéros se trouvent les ACL standard sur un routeur Cisco ?",
+    "propositions": [
+      "1 à 99 et 1300 à 1999",
+      "100 à 199 et 2000 à 2699",
+      "1 à 199",
+      "200 à 299"
+    ],
+    "reponse_correcte": "1 à 99 et 1300 à 1999"
+  },
+  {
+    "question": "Quelle couche OSI est responsable du chiffrement et de la compression des données ?",
+    "propositions": [
+      "Couche 5 – Session",
+      "Couche 6 – Présentation",
+      "Couche 7 – Application",
+      "Couche 4 – Transport"
+    ],
+    "reponse_correcte": "Couche 6 – Présentation"
+  },
+  {
+    "question": "Quel protocole utilise le port TCP 23 pour la gestion à distance non sécurisée ?",
+    "propositions": [
+      "SSH",
+      "Telnet",
+      "FTP",
+      "SNMP"
+    ],
+    "reponse_correcte": "Telnet"
+  },
+  {
+    "question": "Qu'est-ce qu'un VLAN natif ?",
+    "propositions": [
+      "Le VLAN par défaut pour toutes les interfaces trunk",
+      "Le VLAN sur lequel les trames non taguées sont envoyées sur un lien trunk",
+      "Le VLAN dédié à la gestion du switch",
+      "Le VLAN qui ne peut pas être supprimé"
+    ],
+    "reponse_correcte": "Le VLAN sur lequel les trames non taguées sont envoyées sur un lien trunk"
+  },
+  {
+    "question": "Quelle commande permet de voir les VLANs configurés sur un switch Cisco ?",
+    "propositions": [
+      "show vlan brief",
+      "display vlan all",
+      "show vlan database",
+      "list vlans"
+    ],
+    "reponse_correcte": "show vlan brief"
+  },
+  {
+    "question": "Quel protocole permet la synchronisation de l'heure sur les équipements réseau ?",
+    "propositions": [
+      "SNMP",
+      "NTP",
+      "Syslog",
+      "TFTP"
+    ],
+    "reponse_correcte": "NTP"
+  },
+  {
+    "question": "Sur quel port TCP fonctionne le protocole HTTPS ?",
+    "propositions": [
+      "Port 80",
+      "Port 443",
+      "Port 8080",
+      "Port 8443"
+    ],
+    "reponse_correcte": "Port 443"
+  },
+  {
+    "question": "Quel protocole est utilisé pour transférer des fichiers de configuration entre équipements réseau de manière simple ?",
+    "propositions": [
+      "FTP",
+      "SFTP",
+      "TFTP",
+      "SCP"
+    ],
+    "reponse_correcte": "TFTP"
+  },
+  {
+    "question": "Quelle technologie agrège plusieurs liens physiques entre deux switches en un seul lien logique ?",
+    "propositions": [
+      "STP",
+      "VTP",
+      "EtherChannel",
+      "LACP seul"
+    ],
+    "reponse_correcte": "EtherChannel"
+  },
+  {
+    "question": "Quel protocole de négociation automatique est utilisé par EtherChannel (standard ouvert) ?",
+    "propositions": [
+      "PAgP",
+      "LACP",
+      "LLDP",
+      "CDP"
+    ],
+    "reponse_correcte": "LACP"
+  },
+  {
+    "question": "Quel est le rôle d'un pont racine (Root Bridge) dans STP ?",
+    "propositions": [
+      "Bloquer tous les ports redondants",
+      "Servir de référence centrale pour le calcul de la topologie STP",
+      "Router les paquets entre les VLANs",
+      "Distribuer les adresses IP"
+    ],
+    "reponse_correcte": "Servir de référence centrale pour le calcul de la topologie STP"
+  },
+  {
+    "question": "Quelle commande affiche les voisins OSPF d'un routeur Cisco ?",
+    "propositions": [
+      "show ospf neighbors",
+      "show ip ospf neighbor",
+      "display ospf peer",
+      "show routing ospf"
+    ],
+    "reponse_correcte": "show ip ospf neighbor"
+  },
+  {
+    "question": "Quel type d'adresse IPv6 commence par FE80:: ?",
+    "propositions": [
+      "Adresse globale unicast",
+      "Adresse multicast",
+      "Adresse lien-local",
+      "Adresse anycast"
+    ],
+    "reponse_correcte": "Adresse lien-local"
+  },
+  {
+    "question": "Quel protocole est utilisé pour découvrir les voisins dans un environnement multi-vendeurs (équivalent non-propriétaire de CDP) ?",
+    "propositions": [
+      "OSPF",
+      "STP",
+      "LLDP",
+      "VTP"
+    ],
+    "reponse_correcte": "LLDP"
+  },
+  {
+    "question": "Quelle commande permet d'entrer en mode de configuration globale sur un routeur Cisco ?",
+    "propositions": [
+      "enable",
+      "configure terminal",
+      "config global",
+      "router config"
+    ],
+    "reponse_correcte": "configure terminal"
+  },
+  {
+    "question": "Quelle est la fonction d'un switch de couche 3 ?",
+    "propositions": [
+      "Uniquement commuter des trames Ethernet",
+      "Router des paquets IP en plus de commuter des trames",
+      "Fournir une connexion sans fil",
+      "Assigner des adresses IP dynamiquement"
+    ],
+    "reponse_correcte": "Router des paquets IP en plus de commuter des trames"
+  },
+  {
+    "question": "Quel protocole est utilisé pour envoyer des messages de contrôle et d'erreur au niveau de la couche réseau (ex. ping) ?",
+    "propositions": [
+      "UDP",
+      "TCP",
+      "ICMP",
+      "ARP"
+    ],
+    "reponse_correcte": "ICMP"
+  },
+  {
+    "question": "Quelle est la taille maximale d'une trame Ethernet standard (MTU) ?",
+    "propositions": [
+      "512 octets",
+      "1024 octets",
+      "1500 octets",
+      "9000 octets"
+    ],
+    "reponse_correcte": "1500 octets"
+  },
+  {
+    "question": "Quel est le rôle du protocole VTP (VLAN Trunking Protocol) ?",
+    "propositions": [
+      "Prévenir les boucles réseau",
+      "Synchroniser les informations VLAN entre les switches d'un même domaine",
+      "Chiffrer les communications entre switches",
+      "Agréger des liens physiques"
+    ],
+    "reponse_correcte": "Synchroniser les informations VLAN entre les switches d'un même domaine"
+  },
+  {
+    "question": "Quel mécanisme de sécurité sur un switch limite le nombre d'adresses MAC apprises sur un port ?",
+    "propositions": [
+      "DHCP Snooping",
+      "Port Security",
+      "Dynamic ARP Inspection",
+      "802.1X"
+    ],
+    "reponse_correcte": "Port Security"
+  },
+  {
+    "question": "Quelle est la fonction de DHCP Snooping ?",
+    "propositions": [
+      "Bloquer les serveurs DHCP non autorisés",
+      "Chiffrer les messages DHCP",
+      "Attribuer des IP statiques",
+      "Limiter le nombre de clients DHCP"
+    ],
+    "reponse_correcte": "Bloquer les serveurs DHCP non autorisés"
+  },
+  {
+    "question": "Quel protocole fournit une authentification pour l'accès au réseau (802.1X) en utilisant un serveur RADIUS ?",
+    "propositions": [
+      "TACACS+",
+      "EAP",
+      "SNMP",
+      "Kerberos"
+    ],
+    "reponse_correcte": "EAP"
+  },
+  {
+    "question": "Combien d'hôtes utilisables contient un sous-réseau /28 ?",
+    "propositions": [
+      "6 hôtes",
+      "14 hôtes",
+      "30 hôtes",
+      "62 hôtes"
+    ],
+    "reponse_correcte": "14 hôtes"
+  },
+  {
+    "question": "Quel est le masque wildcard équivalent à 255.255.255.0 ?",
+    "propositions": [
+      "0.0.0.0",
+      "0.0.0.255",
+      "255.255.255.0",
+      "0.255.255.255"
+    ],
+    "reponse_correcte": "0.0.0.255"
+  },
+  {
+    "question": "Sur quel port TCP fonctionne le protocole FTP en mode commande ?",
+    "propositions": [
+      "Port 20",
+      "Port 21",
+      "Port 22",
+      "Port 25"
+    ],
+    "reponse_correcte": "Port 21"
+  },
+  {
+    "question": "Quel type de routage utilise des protocoles pour échanger automatiquement les informations de routage ?",
+    "propositions": [
+      "Routage statique",
+      "Routage dynamique",
+      "Routage par défaut",
+      "Routage flottant"
+    ],
+    "reponse_correcte": "Routage dynamique"
+  },
+  {
+    "question": "Quelle adresse IP est l'adresse de broadcast pour le réseau 192.168.1.0/24 ?",
+    "propositions": [
+      "192.168.1.0",
+      "192.168.1.1",
+      "192.168.1.254",
+      "192.168.1.255"
+    ],
+    "reponse_correcte": "192.168.1.255"
+  },
+  {
+    "question": "Quel est le rôle de l'interface loopback sur un routeur Cisco ?",
+    "propositions": [
+      "Connecter physiquement le routeur au réseau",
+      "Fournir une interface virtuelle toujours active pour les tests et l'identification",
+      "Servir de passerelle par défaut",
+      "Filtrer le trafic entrant"
+    ],
+    "reponse_correcte": "Fournir une interface virtuelle toujours active pour les tests et l'identification"
+  },
+  {
+    "question": "Quel protocole sans fil fonctionne dans la bande 5 GHz uniquement parmi les suivants ?",
+    "propositions": [
+      "802.11b",
+      "802.11g",
+      "802.11a",
+      "802.11n"
+    ],
+    "reponse_correcte": "802.11a"
+  },
+  {
+    "question": "Quelle est la vitesse maximale théorique du standard 802.11ac (Wi-Fi 5) ?",
+    "propositions": [
+      "54 Mbps",
+      "150 Mbps",
+      "1 Gbps et plus",
+      "300 Mbps"
+    ],
+    "reponse_correcte": "1 Gbps et plus"
+  },
+  {
+    "question": "Quel composant d'une infrastructure Wi-Fi gère de manière centralisée les points d'accès légers ?",
+    "propositions": [
+      "Un switch L3",
+      "Un contrôleur sans fil (WLC)",
+      "Un serveur DHCP",
+      "Un pare-feu"
+    ],
+    "reponse_correcte": "Un contrôleur sans fil (WLC)"
+  },
+  {
+    "question": "Quelle est la différence principale entre un AP autonome et un AP léger (lightweight) ?",
+    "propositions": [
+      "L'AP léger est géré de manière centralisée par un WLC",
+      "L'AP léger supporte plus d'utilisateurs",
+      "L'AP autonome ne supporte pas le 802.11ac",
+      "L'AP léger n'a pas besoin d'alimentation PoE"
+    ],
+    "reponse_correcte": "L'AP léger est géré de manière centralisée par un WLC"
+  },
+  {
+    "question": "Quel protocole est utilisé pour la communication entre un AP léger et un WLC Cisco ?",
+    "propositions": [
+      "LWAPP ou CAPWAP",
+      "SNMP",
+      "SSH",
+      "OSPF"
+    ],
+    "reponse_correcte": "LWAPP ou CAPWAP"
+  },
+  {
+    "question": "Quelle couche du modèle TCP/IP correspond à la couche réseau du modèle OSI ?",
+    "propositions": [
+      "Couche accès réseau",
+      "Couche Internet",
+      "Couche transport",
+      "Couche application"
+    ],
+    "reponse_correcte": "Couche Internet"
+  },
+  {
+    "question": "Quelle commande permet de définir une route statique par défaut sur un routeur Cisco ?",
+    "propositions": [
+      "ip route 0.0.0.0 0.0.0.0 [next-hop]",
+      "ip default-route [next-hop]",
+      "route add default [next-hop]",
+      "ip route any any [next-hop]"
+    ],
+    "reponse_correcte": "ip route 0.0.0.0 0.0.0.0 [next-hop]"
+  },
+  {
+    "question": "Quel est le rôle du champ TTL (Time To Live) dans un paquet IP ?",
+    "propositions": [
+      "Indiquer la durée de validité d'une entrée ARP",
+      "Éviter les boucles de routage en limitant la durée de vie du paquet",
+      "Indiquer le type de protocole encapsulé",
+      "Définir la priorité du paquet"
+    ],
+    "reponse_correcte": "Éviter les boucles de routage en limitant la durée de vie du paquet"
+  },
+  {
+    "question": "Quelle technique permet à OSPF de diviser un grand domaine de routage en plusieurs zones ?",
+    "propositions": [
+      "VRF",
+      "Hiérarchie OSPF avec des areas",
+      "Route summarization uniquement",
+      "OSPF stub areas uniquement"
+    ],
+    "reponse_correcte": "Hiérarchie OSPF avec des areas"
+  },
+  {
+    "question": "Quel est l'identifiant de l'area backbone OSPF ?",
+    "propositions": [
+      "Area 0",
+      "Area 1",
+      "Area 100",
+      "Area backbone"
+    ],
+    "reponse_correcte": "Area 0"
+  },
+  {
+    "question": "Quelle est la distance administrative d'EIGRP (routes internes) sur Cisco IOS ?",
+    "propositions": [
+      "90",
+      "110",
+      "120",
+      "170"
+    ],
+    "reponse_correcte": "90"
+  },
+  {
+    "question": "Quel protocole de sécurité chiffre l'ensemble du trafic entre un client VPN et un concentrateur VPN ?",
+    "propositions": [
+      "GRE",
+      "IPsec",
+      "L2TP seul",
+      "PPTP"
+    ],
+    "reponse_correcte": "IPsec"
+  },
+  {
+    "question": "Quelle est la différence entre un VPN site-à-site et un VPN d'accès distant ?",
+    "propositions": [
+      "Le VPN site-à-site connecte deux réseaux fixes, le VPN d'accès distant connecte un utilisateur mobile",
+      "Le VPN d'accès distant est plus sécurisé",
+      "Le VPN site-à-site utilise SSL, l'accès distant utilise IPsec",
+      "Il n'y a pas de différence"
+    ],
+    "reponse_correcte": "Le VPN site-à-site connecte deux réseaux fixes, le VPN d'accès distant connecte un utilisateur mobile"
+  },
+  {
+    "question": "Quelle technologie de QoS marque les paquets IP pour les différencier par priorité ?",
+    "propositions": [
+      "DSCP (Differentiated Services Code Point)",
+      "VLAN tagging",
+      "Port mirroring",
+      "STP priority"
+    ],
+    "reponse_correcte": "DSCP (Differentiated Services Code Point)"
+  },
+  {
+    "question": "Quel type d'attaque consiste à inonder un switch avec de fausses adresses MAC pour saturer sa table CAM ?",
+    "propositions": [
+      "ARP Spoofing",
+      "MAC Flooding",
+      "VLAN Hopping",
+      "DHCP Starvation"
+    ],
+    "reponse_correcte": "MAC Flooding"
+  },
+  {
+    "question": "Quel mécanisme de sécurité protège contre les attaques ARP Spoofing sur les switches Cisco ?",
+    "propositions": [
+      "Port Security",
+      "DHCP Snooping",
+      "Dynamic ARP Inspection (DAI)",
+      "Storm Control"
+    ],
+    "reponse_correcte": "Dynamic ARP Inspection (DAI)"
+  },
+  {
+    "question": "Quel est le port TCP utilisé par le protocole SMTP pour l'envoi d'e-mails ?",
+    "propositions": [
+      "Port 25",
+      "Port 110",
+      "Port 143",
+      "Port 993"
+    ],
+    "reponse_correcte": "Port 25"
+  },
+  {
+    "question": "Quel est le premier octet caractéristique d'une adresse IPv4 de classe A ?",
+    "propositions": [
+      "1 à 126",
+      "128 à 191",
+      "192 à 223",
+      "224 à 239"
+    ],
+    "reponse_correcte": "1 à 126"
+  },
+  {
+    "question": "Quelle commande permet de configurer le VLAN natif sur un port trunk Cisco ?",
+    "propositions": [
+      "switchport trunk native vlan [id]",
+      "switchport native vlan [id]",
+      "vlan native [id]",
+      "trunk native vlan [id]"
+    ],
+    "reponse_correcte": "switchport trunk native vlan [id]"
+  },
+  {
+    "question": "Dans le modèle SDN, quel plan prend les décisions de routage et de transmission ?",
+    "propositions": [
+      "Plan de données (data plane)",
+      "Plan de contrôle (control plane)",
+      "Plan de gestion (management plane)",
+      "Plan applicatif (application plane)"
+    ],
+    "reponse_correcte": "Plan de contrôle (control plane)"
+  },
+  {
+    "question": "Quel est le rôle d'un contrôleur SDN dans un réseau ?",
+    "propositions": [
+      "Acheminer physiquement les paquets",
+      "Centraliser le plan de contrôle et programmer les équipements via des API",
+      "Fournir des adresses IP",
+      "Gérer les VLANs uniquement"
+    ],
+    "reponse_correcte": "Centraliser le plan de contrôle et programmer les équipements via des API"
+  },
+  {
+    "question": "Quel format de données est couramment utilisé par les APIs REST pour échanger des informations ?",
+    "propositions": [
+      "XML uniquement",
+      "CSV",
+      "JSON",
+      "YAML uniquement"
+    ],
+    "reponse_correcte": "JSON"
+  },
+  {
+    "question": "Quel outil d'automatisation réseau utilise le langage YAML pour les playbooks ?",
+    "propositions": [
+      "Puppet",
+      "Chef",
+      "Ansible",
+      "SaltStack"
+    ],
+    "reponse_correcte": "Ansible"
+  },
+  {
+    "question": "Quel type d'API REST est utilisé pour récupérer des données depuis un serveur ?",
+    "propositions": [
+      "POST",
+      "GET",
+      "PUT",
+      "DELETE"
+    ],
+    "reponse_correcte": "GET"
+  },
+  {
+    "question": "Quelle technologie Cisco permet la gestion centralisée du réseau avec intention (Intent-Based Networking) ?",
+    "propositions": [
+      "Cisco ACI",
+      "Cisco DNA Center",
+      "Cisco ISE",
+      "Cisco Prime"
+    ],
+    "reponse_correcte": "Cisco DNA Center"
+  },
+  {
+    "question": "Quelle est la différence entre l'authentification AAA RADIUS et TACACS+ ?",
+    "propositions": [
+      "RADIUS chiffre uniquement le mot de passe, TACACS+ chiffre la totalité du paquet",
+      "TACACS+ utilise UDP, RADIUS utilise TCP",
+      "RADIUS est propriétaire Cisco, TACACS+ est un standard ouvert",
+      "Il n'y a pas de différence"
+    ],
+    "reponse_correcte": "RADIUS chiffre uniquement le mot de passe, TACACS+ chiffre la totalité du paquet"
+  },
+  {
+    "question": "Quel protocole Cisco permet le routage inter-VLAN via une sous-interface sur un routeur (Router-on-a-Stick) ?",
+    "propositions": [
+      "802.1Q",
+      "ISL",
+      "VTP",
+      "STP"
+    ],
+    "reponse_correcte": "802.1Q"
+  },
+  {
+    "question": "Quel est le délai de convergence par défaut de STP classique (802.1D) ?",
+    "propositions": [
+      "5 à 10 secondes",
+      "15 à 30 secondes",
+      "30 à 50 secondes",
+      "1 à 2 secondes"
+    ],
+    "reponse_correcte": "30 à 50 secondes"
+  },
+  {
+    "question": "Quel est l'avantage principal de RSTP (802.1w) par rapport à STP classique ?",
+    "propositions": [
+      "RSTP supporte plus de VLANs",
+      "RSTP converge beaucoup plus rapidement (en quelques secondes)",
+      "RSTP chiffre les BPDUs",
+      "RSTP utilise moins de bande passante"
+    ],
+    "reponse_correcte": "RSTP converge beaucoup plus rapidement (en quelques secondes)"
+  },
+  {
+    "question": "Quel protocole IPv6 remplace ARP pour la résolution d'adresses ?",
+    "propositions": [
+      "ICMPv6 – Neighbor Discovery Protocol (NDP)",
+      "DHCPv6",
+      "OSPFv3",
+      "MLDv2"
+    ],
+    "reponse_correcte": "ICMPv6 – Neighbor Discovery Protocol (NDP)"
+  },
+  {
+    "question": "Quelle méthode d'attribution d'adresse IPv6 permet à un hôte de générer sa propre adresse sans serveur DHCP ?",
+    "propositions": [
+      "DHCPv6 stateful",
+      "SLAAC (Stateless Address Autoconfiguration)",
+      "IPv6 statique uniquement",
+      "NAT64"
+    ],
+    "reponse_correcte": "SLAAC (Stateless Address Autoconfiguration)"
+  },
+  {
+    "question": "Quel est le rôle de PortFast dans la configuration STP d'un switch Cisco ?",
+    "propositions": [
+      "Accélérer la convergence sur les ports connectés aux utilisateurs finaux",
+      "Augmenter la priorité STP du switch",
+      "Désactiver STP sur le port",
+      "Convertir le port en mode trunk"
+    ],
+    "reponse_correcte": "Accélérer la convergence sur les ports connectés aux utilisateurs finaux"
+  },
+  {
+    "question": "Quel protocole de sécurité est utilisé pour sécuriser les connexions HTTPS ?",
+    "propositions": [
+      "SSL/TLS",
+      "IPsec",
+      "SSH",
+      "MD5"
+    ],
+    "reponse_correcte": "SSL/TLS"
+  },
+  {
+    "question": "Combien de sous-réseaux peut-on créer avec un masque /27 à partir du réseau 192.168.1.0/24 ?",
+    "propositions": [
+      "4 sous-réseaux",
+      "8 sous-réseaux",
+      "16 sous-réseaux",
+      "32 sous-réseaux"
+    ],
+    "reponse_correcte": "8 sous-réseaux"
+  },
+  {
+    "question": "Quel est le protocole de messagerie qui permet de récupérer les e-mails depuis un serveur en les laissant sur celui-ci ?",
+    "propositions": [
+      "SMTP",
+      "POP3",
+      "IMAP",
+      "MIME"
+    ],
+    "reponse_correcte": "IMAP"
+  },
+  {
+    "question": "Quelle commande Cisco IOS permet d'afficher la table des adresses MAC d'un switch ?",
+    "propositions": [
+      "show mac address-table",
+      "show arp",
+      "show cam table",
+      "display mac-table"
+    ],
+    "reponse_correcte": "show mac address-table"
+  },
+  {
+    "question": "Quel est l'impact de la commande 'no shutdown' sur une interface Cisco ?",
+    "propositions": [
+      "Elle supprime l'interface",
+      "Elle active l'interface administrativement",
+      "Elle réinitialise les compteurs de l'interface",
+      "Elle configure l'interface en mode trunk"
+    ],
+    "reponse_correcte": "Elle active l'interface administrativement"
+  }
+]
